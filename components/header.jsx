@@ -2,15 +2,15 @@
 import { FaBars, FaBan } from 'react-icons/fa';
 function Header() {
   return (
-    <header className="bg-slate-900  py-5  sticky top-0 z-10 min-w-screen">
+    <header className="bg-slate-900  py-5  sticky top-0 z-10 ">
       {/* TODO : Make mobile responsive nav bar */}
       <nav className="lg:hidden flex justify-between px-4 items-center">
         <div className=" flex items-center gap-2 text-white font-medium text-xl ">  <FaBan className='text-white ' />Inequality </div>
  <FaBars className='text-white  ' />
       </nav>
 
-      <nav className="lg:flex hidden justify-between px-4 items-center">
-         <div className=" flex items-center gap-2 text-white font-medium text-xl ">  <FaBan className='text-white ' />Inequality </div>
+      <nav className="lg:flex hidden justify-between px-4 items-center ">
+         <div className=" flex items-center  text-white font-medium text-xl ">  <FaBan className='text-white ' />Inequality </div>
         <div className="lg:flex hidden items-center ">
           <ul className="flex gap-2">
             <li className="inline-block text-white cursor-pointer px-4 py-2  hover:text-red-100 ">

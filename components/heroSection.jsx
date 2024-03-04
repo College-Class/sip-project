@@ -18,7 +18,7 @@ function HeroSection() {
           Register a Complain
         </button>
       </div>
-      <div className="lg:w-[696px] lg:h-[444px] w-screen-30 h-72 lg:mt-0 mt-8 bg-gradient-to-br  from-red-500 to-blue-950 rounded-2xl" />
+      <div className="lg:w-40% lg:h-[444px] w-screen-30 h-72 lg:mt-0 mt-8 bg-gradient-to-br  from-red-500 to-blue-950 rounded-2xl" />
     </div>
   )
 }
