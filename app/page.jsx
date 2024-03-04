@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div >
       <Header/> 
-      <div className="px-16 py-24 justify-center"> 
+    
 
       
       <HeroSection/>
@@ -24,7 +24,7 @@ export default function Home() {
       <SectionHeading/>
     <StoryContainer/>
     <CallToAction/>
-    </div>
+   
     
       <Footer />
     </div>

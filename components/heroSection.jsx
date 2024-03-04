@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div className=" h-444px flex justify-center items-center gap-[96px]">
+    <div className=" my-[132px] h-444px flex justify-center items-center gap-[138px]">
       <div className="flex-col justify-start items-start gap-6 inline-flex">
         <div className="text-black text-4xl font-bold ">Beyond Bias, Towards Unity</div>
         <div className="w-[557px] text-black text-lg font-normal ">Embark on a transformative journey with us—beyond biases, towards unity. We are dedicated to breaking down barriers, fostering a world where equality triumphs over discrimination. Join our movement for a future where unity prevails</div>

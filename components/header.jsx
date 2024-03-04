@@ -1,24 +1,39 @@
-"use client";
-function Header() { 
+'use client'
+function Header() {
   return (
-    <div className="w-[1440px] h-20 relative">
-    <div className="w-[1440px] h-20 left-0 top-0 absolute bg-slate-900" />
-    <div className="w-[1392px] left-[24px] top-[12px] absolute justify-between items-center inline-flex">
-        <div className="justify-center items-center gap-2 flex">
-            <div className="text-white text-lg font-bold">Inequality</div>
+    <header className="bg-slate-900  py-5  sticky top-0 z-10">
+      {/* TODO : Make mobile responsive nav bar */}
+      <nav className="lg:hidden flex justify-between px-4 items-center w-screen">
+        <div className="text-white font-medium text-xl "> Inequality </div>
+        <h1 className="text-white">Hello</h1>
+      </nav>
+      <nav className="lg:flex hidden justify-between px-4 items-center">
+        <div className="text-white font-medium text-xl "> Inequality </div>
+
+        <div className="lg:flex hidden items-center ">
+          <ul className="flex gap-2">
+            <li className="inline-block text-white cursor-pointer px-4 py-2  hover:text-red-100 ">
+              Home
+            </li>
+            <li className="inline-block text-white cursor-pointer px-4 py-2 hover:text-red-100 ">
+              Laws
+            </li>
+            <li className="inline-block text-white cursor-pointer px-4 py-2 hover:text-red-100 ">
+              Successful Laws
+            </li>
+            <li className="inline-block text-white cursor-pointer px-4 py-2 hover:text-red-100 ">
+              Be Aware
+            </li>
+            <li className="inline-block text-white cursor-pointer px-4 py-2 hover:text-red-100 ">
+              Read Stories
+            </li>
+          </ul>
+          <button className="text-grey-100 bg-white ml-8 py-3 px-4 rounded-lg hover:bg-red-100   cursor-pointer">
+            Share Story
+          </button>
         </div>
-        <div className="h-14 justify-between items-center flex">
-            <div className="px-4 text-white hover:text-emerald-300 text-sm font-medium">Home</div>
-            <div className="px-4  hover:text-emerald-300 text-white text-sm font-medium ">Laws</div>
-            <div className="px-4  hover:text-emerald-300 text-white text-sm font-medium ">Successful Cases</div>
-            <div className="px-4  hover:text-emerald-300 text-white text-sm font-medium ">Be Aware</div>
-            <div className="px-4  hover:text-emerald-300 text-white text-sm font-medium ">Read Stories</div>
-            <div className="px-[34px] py-[16px] rounded-lg bg-white hover:bg-emerald-300 border-white justify-center items-center flex">
-                <div className="text-black text-sm font-semibold ">Share Story</div>
-            </div>
-        </div>
-    </div>
-</div>
+      </nav>
+    </header>
   )
 }
 
