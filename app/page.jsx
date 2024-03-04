@@ -15,18 +15,18 @@ export default function Home() {
 
       
       <HeroSection/>
-      <SectionHeading/>
-      <LawContainer/>
-      <SectionHeading/>
-      <LawContainer/>
-      <SectionHeading/>
-      <GalleryView/>
-      <SectionHeading/>
-    <StoryContainer/>
-    <CallToAction/>
+      {/* <SectionHeading/> */}
+      {/* <LawContainer/> */}
+      {/* <SectionHeading/> */}
+      {/* <LawContainer/> */}
+      {/* <SectionHeading/> */}
+      {/* <GalleryView/> */}
+      {/* <SectionHeading/> */}
+    {/* <StoryContainer/> */}
+    {/* <CallToAction/> */}
    
     
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
