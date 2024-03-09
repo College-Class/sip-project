@@ -10,7 +10,7 @@ function Header() {
       </nav>
 
       <nav className="lg:flex hidden justify-between px-4 items-center ">
-         <div className=" flex items-center  text-white font-medium text-xl ">  <FaBan className='text-white ' />Inequality </div>
+         <div className=" flex items-center  text-white font-medium text-xl ">  <FaBan className='text-white mx-2' />Inequality </div>
         <div className="lg:flex hidden items-center ">
           <ul className="flex gap-2">
             <li className="inline-block text-white cursor-pointer px-4 py-2  hover:text-red-100 ">
